@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/wallpaperbetter.jpg);
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 3em;
+}
+
+header > p {
+    padding-bottom: 15px;
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+nav > a:hover {
+    color: rgb(0, 100, 139);
+}
+
+main {
+    background-color: black;
+    margin: auto;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+main > section > h1 {
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+main a {
+    font-size: 0.7em;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+main a:hover {
+    color: rgb(0, 100, 139);
+}
