@@ -48,8 +48,8 @@ nav > a:hover {
 main {
     background-color: black;
     margin: auto;
-    max-width: 800px;
-    padding: 50px;
+    max-width: 830px;
+    padding: 50px 10px;
     border-radius: 10px;
     
 }
@@ -69,6 +69,15 @@ main a:hover {
     color: rgb(0, 100, 139);
 }
 
+main h1 {
+    padding: 10px;
+}
+
 main li {
-    font-size: 0.7em;
+    font-size: 0.9em;
+}
+
+aside {
+    display: inline-block;
+    padding: 20px;
 }
