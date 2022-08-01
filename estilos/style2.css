@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;700&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: 'Arima', cursive;
+}
+
+body {
+    background: black url(../imagens/wallpaperbetter.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width: 96vw;     
+}
+
+main {
+    max-width: 75vw;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main > img {
+    width: 100%;
+}
+
+main > h1 {
+    display: inline-block;
+    color: lightgray;
+    font-family: var(--fonte1);
+    font-size: 3em;
+    padding-top: 10px;
+}
+
+main > h2 {
+    color: lightgray;
+    padding: 10px;
+}
+
+main > p {
+    font-family: var(--fonte1);
+    color: lightgray;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 0.9em;
+}
+
+main a {
+    color: lightgray;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+main a:hover {
+    color: rgb(0, 100, 139);
+}
+
+main > a#voltar {
+    text-align: right;
+}
+
+main > nav > a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.3em;
+    padding: 4px;
+}
+
+main > nav > a:hover {
+    color: rgb(0, 100, 139);
+}
+
+iframe {
+    width: 74vw;
+    height: 60vh;
+    background: center center;
+    padding-top: 15px;
+}
