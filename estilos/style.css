@@ -63,6 +63,7 @@ main {
 main > section > h1 {
     padding-bottom: 20px;
     font-size: 2em;
+    text-align: center;
 }
 
 main a {
