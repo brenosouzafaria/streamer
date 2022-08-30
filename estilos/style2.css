@@ -84,3 +84,11 @@ iframe {
     background: center center;
     padding-top: 15px;
 }
+
+picture {
+    display: block;
+}
+
+picture > img {
+    width: 50vw;
+}
